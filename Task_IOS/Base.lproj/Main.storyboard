@@ -19,7 +19,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7J-7e-N3m">
                                 <rect key="frame" x="213" y="268" width="175" height="30"/>
-                                <state key="normal" backgroundImage="facebook-sign-in-button-png-26.png"/>
+                                <state key="normal" backgroundImage="ZW4QC.png"/>
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="55" y="426" width="224" height="43"/>
                                 </variation>
@@ -79,6 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="facebook-sign-in-button-png-26.png" width="800" height="300"/>
+        <image name="ZW4QC.png" width="202" height="46"/>
     </resources>
 </document>

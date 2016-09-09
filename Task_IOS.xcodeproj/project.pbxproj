@@ -15,6 +15,7 @@
 		C60AA4B11D827DCA009FEAE7 /* Task_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60AA4B01D827DCA009FEAE7 /* Task_IOSTests.swift */; };
 		C60AA4BC1D827DCA009FEAE7 /* Task_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60AA4BB1D827DCA009FEAE7 /* Task_IOSUITests.swift */; };
 		C60AA4CA1D82879A009FEAE7 /* facebook-sign-in-button-png-26.png in Resources */ = {isa = PBXBuildFile; fileRef = C60AA4C91D82879A009FEAE7 /* facebook-sign-in-button-png-26.png */; };
+		C60AA4CC1D828B8A009FEAE7 /* ZW4QC.png in Resources */ = {isa = PBXBuildFile; fileRef = C60AA4CB1D828B8A009FEAE7 /* ZW4QC.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C60AA4BB1D827DCA009FEAE7 /* Task_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_IOSUITests.swift; sourceTree = "<group>"; };
 		C60AA4BD1D827DCA009FEAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C60AA4C91D82879A009FEAE7 /* facebook-sign-in-button-png-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-sign-in-button-png-26.png"; sourceTree = "<group>"; };
+		C60AA4CB1D828B8A009FEAE7 /* ZW4QC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZW4QC.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C60AA49B1D827DCA009FEAE7 /* AppDelegate.swift */,
 				C60AA49D1D827DCA009FEAE7 /* ViewController.swift */,
 				C60AA4C91D82879A009FEAE7 /* facebook-sign-in-button-png-26.png */,
+				C60AA4CB1D828B8A009FEAE7 /* ZW4QC.png */,
 				C60AA49F1D827DCA009FEAE7 /* Main.storyboard */,
 				C60AA4A21D827DCA009FEAE7 /* Assets.xcassets */,
 				C60AA4A41D827DCA009FEAE7 /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C60AA4A61D827DCA009FEAE7 /* LaunchScreen.storyboard in Resources */,
+				C60AA4CC1D828B8A009FEAE7 /* ZW4QC.png in Resources */,
 				C60AA4CA1D82879A009FEAE7 /* facebook-sign-in-button-png-26.png in Resources */,
 				C60AA4A31D827DCA009FEAE7 /* Assets.xcassets in Resources */,
 				C60AA4A11D827DCA009FEAE7 /* Main.storyboard in Resources */,
