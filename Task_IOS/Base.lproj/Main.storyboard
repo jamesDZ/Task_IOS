@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--IOS_Task -->
@@ -24,40 +25,140 @@
                                     <rect key="frame" x="55" y="426" width="224" height="43"/>
                                 </variation>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SRx-l6-AWf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2-india-independence-day-wallpaper.preview.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SRx-l6-AWf">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="89" y="107" width="240" height="128"/>
-                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWA-dl-C2y">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZn-Th-HYZ">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="267" width="179" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvm-QU-kmm">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="360" width="91" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DfB-gX-bxQ">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="118" y="273" width="161" height="21"/>
+                                    <rect key="frame" x="185" y="223" width="106" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckw-I8-1uj">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="267" width="106" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQf-k2-Rk6">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="314" width="106" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVb-2g-kf5">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="360" width="106" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IST" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="972-Qf-StW">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="314" width="179" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SRx-l6-AWf" secondAttribute="trailing" constant="177" id="3C6-fP-HrT"/>
+                            <constraint firstItem="pZn-Th-HYZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5Ig-dy-96a"/>
+                            <constraint firstItem="uWA-dl-C2y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="6Ty-7J-75F"/>
+                            <constraint firstItem="pZn-Th-HYZ" firstAttribute="top" secondItem="uWA-dl-C2y" secondAttribute="bottom" constant="23" id="9OA-Nr-dgc"/>
+                            <constraint firstItem="uWA-dl-C2y" firstAttribute="top" secondItem="SRx-l6-AWf" secondAttribute="bottom" constant="31" id="9V5-wJ-GsF"/>
+                            <constraint firstItem="pZn-Th-HYZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="DPz-DH-7Ow"/>
+                            <constraint firstAttribute="trailing" secondItem="uWA-dl-C2y" secondAttribute="trailing" constant="121" id="DsC-GE-iws"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="m7J-7e-N3m" secondAttribute="bottom" constant="125" id="FJj-zC-8P5">
                                 <variation key="heightClass=regular" constant="99"/>
                             </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="pZn-Th-HYZ" secondAttribute="trailing" constant="157" id="G5L-R9-rFK">
+                                <variation key="heightClass=regular" constant="121"/>
+                            </constraint>
+                            <constraint firstItem="972-Qf-StW" firstAttribute="top" secondItem="pZn-Th-HYZ" secondAttribute="bottom" constant="26" id="Pw7-Y0-ePg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="972-Qf-StW" secondAttribute="trailing" constant="101" id="T7e-15-N3e"/>
+                            <constraint firstItem="uWA-dl-C2y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="159" id="VLy-sd-GgH"/>
+                            <constraint firstItem="SRx-l6-AWf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="WVf-g8-Sw6"/>
                             <constraint firstItem="m7J-7e-N3m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="74" id="X5I-8W-TYQ">
                                 <variation key="heightClass=regular" constant="55"/>
                             </constraint>
                             <constraint firstAttribute="trailing" secondItem="m7J-7e-N3m" secondAttribute="trailing" constant="73" id="Zfj-Qr-DO5">
                                 <variation key="heightClass=regular" constant="41"/>
                             </constraint>
+                            <constraint firstItem="Wvm-QU-kmm" firstAttribute="top" secondItem="972-Qf-StW" secondAttribute="bottom" constant="25" id="Zrw-Jh-7ef"/>
+                            <constraint firstItem="Wvm-QU-kmm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dA1-5q-JDC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wvm-QU-kmm" secondAttribute="trailing" constant="189" id="e9R-cu-cOc"/>
+                            <constraint firstItem="SRx-l6-AWf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="heU-Qn-LJg"/>
+                            <constraint firstItem="972-Qf-StW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oQg-Nr-HZ0"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="SRx-l6-AWf"/>
                                 <exclude reference="uWA-dl-C2y"/>
+                                <exclude reference="pZn-Th-HYZ"/>
+                                <exclude reference="Wvm-QU-kmm"/>
+                                <exclude reference="DfB-gX-bxQ"/>
+                                <exclude reference="ckw-I8-1uj"/>
+                                <exclude reference="UQf-k2-Rk6"/>
+                                <exclude reference="yVb-2g-kf5"/>
+                                <exclude reference="972-Qf-StW"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="3C6-fP-HrT"/>
+                                <exclude reference="WVf-g8-Sw6"/>
+                                <exclude reference="heU-Qn-LJg"/>
+                                <exclude reference="6Ty-7J-75F"/>
+                                <exclude reference="9V5-wJ-GsF"/>
+                                <exclude reference="DsC-GE-iws"/>
+                                <exclude reference="VLy-sd-GgH"/>
+                                <exclude reference="5Ig-dy-96a"/>
+                                <exclude reference="9OA-Nr-dgc"/>
+                                <exclude reference="DPz-DH-7Ow"/>
+                                <exclude reference="G5L-R9-rFK"/>
+                                <exclude reference="Pw7-Y0-ePg"/>
+                                <exclude reference="T7e-15-N3e"/>
+                                <exclude reference="oQg-Nr-HZ0"/>
+                                <exclude reference="Zrw-Jh-7ef"/>
+                                <exclude reference="dA1-5q-JDC"/>
+                                <exclude reference="e9R-cu-cOc"/>
                                 <exclude reference="X5I-8W-TYQ"/>
                                 <exclude reference="Zfj-Qr-DO5"/>
                                 <exclude reference="FJj-zC-8P5"/>
@@ -67,8 +168,32 @@
                             <mask key="subviews">
                                 <include reference="SRx-l6-AWf"/>
                                 <include reference="uWA-dl-C2y"/>
+                                <include reference="pZn-Th-HYZ"/>
+                                <include reference="Wvm-QU-kmm"/>
+                                <include reference="DfB-gX-bxQ"/>
+                                <include reference="ckw-I8-1uj"/>
+                                <include reference="UQf-k2-Rk6"/>
+                                <include reference="yVb-2g-kf5"/>
+                                <include reference="972-Qf-StW"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="3C6-fP-HrT"/>
+                                <include reference="WVf-g8-Sw6"/>
+                                <include reference="heU-Qn-LJg"/>
+                                <include reference="6Ty-7J-75F"/>
+                                <include reference="9V5-wJ-GsF"/>
+                                <include reference="DsC-GE-iws"/>
+                                <include reference="VLy-sd-GgH"/>
+                                <include reference="5Ig-dy-96a"/>
+                                <include reference="9OA-Nr-dgc"/>
+                                <include reference="DPz-DH-7Ow"/>
+                                <include reference="G5L-R9-rFK"/>
+                                <include reference="Pw7-Y0-ePg"/>
+                                <include reference="T7e-15-N3e"/>
+                                <include reference="oQg-Nr-HZ0"/>
+                                <include reference="Zrw-Jh-7ef"/>
+                                <include reference="dA1-5q-JDC"/>
+                                <include reference="e9R-cu-cOc"/>
                                 <include reference="X5I-8W-TYQ"/>
                                 <include reference="Zfj-Qr-DO5"/>
                                 <include reference="FJj-zC-8P5"/>
@@ -79,8 +204,10 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="btnFB" destination="m7J-7e-N3m" id="79a-nU-9wY"/>
+                        <outlet property="email" destination="972-Qf-StW" id="eeY-Vq-9XF"/>
                         <outlet property="profileimage" destination="SRx-l6-AWf" id="xOj-PK-oY4"/>
                         <outlet property="username" destination="uWA-dl-C2y" id="TVN-E2-pU6"/>
+                        <outlet property="username2" destination="pZn-Th-HYZ" id="3JR-mS-KE8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -107,6 +234,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="2-india-independence-day-wallpaper.preview.jpg" width="660" height="413"/>
         <image name="ZW4QC.png" width="202" height="46"/>
     </resources>
 </document>

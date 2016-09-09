@@ -18,6 +18,7 @@
 		C60AA4CC1D828B8A009FEAE7 /* ZW4QC.png in Resources */ = {isa = PBXBuildFile; fileRef = C60AA4CB1D828B8A009FEAE7 /* ZW4QC.png */; };
 		C60AA4DC1D82AA93009FEAE7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60AA4DA1D82AA93009FEAE7 /* FBSDKCoreKit.framework */; };
 		C60AA4DD1D82AA93009FEAE7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60AA4DB1D82AA93009FEAE7 /* FBSDKLoginKit.framework */; };
+		C60AA4DF1D82D114009FEAE7 /* 2-india-independence-day-wallpaper.preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C60AA4DE1D82D114009FEAE7 /* 2-india-independence-day-wallpaper.preview.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C60AA4D71D82A29D009FEAE7 /* Task_IOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Task_IOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		C60AA4DA1D82AA93009FEAE7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		C60AA4DB1D82AA93009FEAE7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		C60AA4DE1D82D114009FEAE7 /* 2-india-independence-day-wallpaper.preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-india-independence-day-wallpaper.preview.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				C60AA4C91D82879A009FEAE7 /* facebook-sign-in-button-png-26.png */,
 				C60AA4CB1D828B8A009FEAE7 /* ZW4QC.png */,
 				C60AA49F1D827DCA009FEAE7 /* Main.storyboard */,
+				C60AA4DE1D82D114009FEAE7 /* 2-india-independence-day-wallpaper.preview.jpg */,
 				C60AA4A21D827DCA009FEAE7 /* Assets.xcassets */,
 				C60AA4A41D827DCA009FEAE7 /* LaunchScreen.storyboard */,
 				C60AA4A71D827DCA009FEAE7 /* Info.plist */,
@@ -209,6 +212,7 @@
 				TargetAttributes = {
 					C60AA4971D827DCA009FEAE7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3LAPWZB8H5;
 					};
 					C60AA4AB1D827DCA009FEAE7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60AA4DF1D82D114009FEAE7 /* 2-india-independence-day-wallpaper.preview.jpg in Resources */,
 				C60AA4A61D827DCA009FEAE7 /* LaunchScreen.storyboard in Resources */,
 				C60AA4CC1D828B8A009FEAE7 /* ZW4QC.png in Resources */,
 				C60AA4CA1D82879A009FEAE7 /* facebook-sign-in-button-png-26.png in Resources */,
@@ -419,6 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Task_IOS",
@@ -430,6 +438,7 @@
 				New_Setting1 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alokkumar.Task-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Task_IOS/Task_IOS-Bridging-Header.h";
 			};
 			name = Debug;
@@ -438,6 +447,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Task_IOS",
@@ -449,6 +461,7 @@
 				New_Setting1 = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alokkumar.Task-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Task_IOS/Task_IOS-Bridging-Header.h";
 			};
 			name = Release;
