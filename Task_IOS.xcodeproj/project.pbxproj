@@ -16,6 +16,8 @@
 		C60AA4BC1D827DCA009FEAE7 /* Task_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60AA4BB1D827DCA009FEAE7 /* Task_IOSUITests.swift */; };
 		C60AA4CA1D82879A009FEAE7 /* facebook-sign-in-button-png-26.png in Resources */ = {isa = PBXBuildFile; fileRef = C60AA4C91D82879A009FEAE7 /* facebook-sign-in-button-png-26.png */; };
 		C60AA4CC1D828B8A009FEAE7 /* ZW4QC.png in Resources */ = {isa = PBXBuildFile; fileRef = C60AA4CB1D828B8A009FEAE7 /* ZW4QC.png */; };
+		C60AA4DC1D82AA93009FEAE7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60AA4DA1D82AA93009FEAE7 /* FBSDKCoreKit.framework */; };
+		C60AA4DD1D82AA93009FEAE7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60AA4DB1D82AA93009FEAE7 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		C60AA4BD1D827DCA009FEAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C60AA4C91D82879A009FEAE7 /* facebook-sign-in-button-png-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-sign-in-button-png-26.png"; sourceTree = "<group>"; };
 		C60AA4CB1D828B8A009FEAE7 /* ZW4QC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZW4QC.png; sourceTree = "<group>"; };
+		C60AA4D71D82A29D009FEAE7 /* Task_IOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Task_IOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		C60AA4DA1D82AA93009FEAE7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C60AA4DB1D82AA93009FEAE7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60AA4DD1D82AA93009FEAE7 /* FBSDKLoginKit.framework in Frameworks */,
+				C60AA4DC1D82AA93009FEAE7 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 		C60AA48F1D827DCA009FEAE7 = {
 			isa = PBXGroup;
 			children = (
+				C60AA4DA1D82AA93009FEAE7 /* FBSDKCoreKit.framework */,
+				C60AA4DB1D82AA93009FEAE7 /* FBSDKLoginKit.framework */,
 				C60AA49A1D827DCA009FEAE7 /* Task_IOS */,
 				C60AA4AF1D827DCA009FEAE7 /* Task_IOSTests */,
 				C60AA4BA1D827DCA009FEAE7 /* Task_IOSUITests */,
@@ -109,6 +118,7 @@
 				C60AA4A21D827DCA009FEAE7 /* Assets.xcassets */,
 				C60AA4A41D827DCA009FEAE7 /* LaunchScreen.storyboard */,
 				C60AA4A71D827DCA009FEAE7 /* Info.plist */,
+				C60AA4D71D82A29D009FEAE7 /* Task_IOS-Bridging-Header.h */,
 			);
 			path = Task_IOS;
 			sourceTree = "<group>";
@@ -409,10 +419,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Task_IOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Task_IOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "alokkumar.Task-IOS";
+				New_Setting = "";
+				New_Setting1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alokkumar.Task-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Task_IOS/Task_IOS-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -420,10 +438,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Task_IOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Task_IOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "alokkumar.Task-IOS";
+				New_Setting = "";
+				New_Setting1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alokkumar.Task-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Task_IOS/Task_IOS-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -492,6 +518,7 @@
 				C60AA4C21D827DCA009FEAE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C60AA4C31D827DCA009FEAE7 /* Build configuration list for PBXNativeTarget "Task_IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +527,7 @@
 				C60AA4C51D827DCA009FEAE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C60AA4C61D827DCA009FEAE7 /* Build configuration list for PBXNativeTarget "Task_IOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +536,7 @@
 				C60AA4C81D827DCA009FEAE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
